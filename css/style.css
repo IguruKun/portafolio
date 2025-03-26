@@ -70,7 +70,23 @@ body{
     background-attachment: fixed;
     color: var(--main-color-letter);
 }
-
+.menu_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.menu_list a{
+    color: var(--main-color-letter);
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+.menu_list svg{
+    width: 100px;
+    fill: var(--main-color-letter);
+}
 img{
     width: 100px;
 }
